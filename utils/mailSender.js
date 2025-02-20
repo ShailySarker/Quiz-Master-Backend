@@ -9,7 +9,7 @@ const mailSender = async (email, title, body) => {
                 user: process.env.MAIL_USER,
                 pass: process.env.MAIL_PASS,
             }
-        })
+        });
         // Send mail
         let info = await transporter.sendMail({
             from: process.env.MAIL_USER,
