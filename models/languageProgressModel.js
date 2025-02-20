@@ -16,6 +16,6 @@ const languageProgressSchema = new mongoose.Schema({
   });
 
 
-  const LanguageProgressSchema = mongoose.model('LanguageProgressSchema', languageProgressSchema);
+  const LanguageProgress = mongoose.model('LanguageProgress', languageProgressSchema);
   
-  module.exports = LanguageProgressSchema;
+  module.exports = LanguageProgress;
